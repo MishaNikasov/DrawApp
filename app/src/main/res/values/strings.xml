@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Draw</string>
+    <string name="branchColor">Цвет кисти</string>
+    <string name="backColor">Цвет фона</string>
+    <string name="hideButtons">Скрыть кнопки</string>
+    <string name="showButtons">Показать кнопки</string>
+</resources>

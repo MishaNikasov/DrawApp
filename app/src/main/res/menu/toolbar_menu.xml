@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- "Mark Favorite", should appear as action button if possible -->
+    <item
+        android:title="Новый документ"
+        android:id="@+id/action_new"
+        android:icon="@drawable/ic_insert_drive_file_white_24dp"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:title="Галерея"
+        android:id="@+id/gallery"
+        app:showAsAction="never"
+        />
+    <item
+        android:title="Скрыть кнопки"
+        android:id="@+id/action_hide"
+        android:checkable="true"
+        android:icon="@drawable/ic_insert_drive_file_white_24dp"
+        app:showAsAction="never"/>
+
+    <!-- Settings, should always be in the overflow -->
+    <item
+        android:title=""
+        android:id="@+id/action_save"
+        android:icon="@drawable/ic_save_white_24dp"
+        app:showAsAction="always"/>
+
+  <item
+        android:title=""
+        android:id="@+id/action_settings"
+        android:icon="@drawable/ic_delete_white_24dp"
+        app:showAsAction="always"/>
+
+</menu>
